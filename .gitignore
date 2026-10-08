@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+._*
+
+# Swift and Xcode build output
+.build/
+.swiftpm/
+build/
+DerivedData/
+*.dSYM/
+
+# Xcode user settings
+xcuserdata/
+*.xcuserstate
+
+# Generated apps and distribution archives
+*.app/
+*.ipa
+*.zip
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs and editor temporary files
+*.log
+*.swp
+*.swo
+*~
